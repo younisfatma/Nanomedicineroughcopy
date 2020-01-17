@@ -1,0 +1,62 @@
+h1 {
+    
+    font-family: serif;
+    font-size: 1.7em;
+    text-align:center;
+    padding: 10px;
+    font-size: 3em;
+    padding-top: 40px;
+    font-style: italic;
+}
+#text{
+    font-family: serif;
+    font-size: 1.4em;
+    padding: 10px;
+    line-height: 200%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+html,
+body,
+header,
+#intro-section {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    #intro-section {
+    height: 100vh;
+    }
+}
+P{ 
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.intro-2 {
+    background: url("backgroundimage.jpg")no-repeat center center;
+    background-size: cover;
+}
+.view {
+    margin-top: -56px;
+}
+.navbar {
+    z-index: 1;
+}
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+.hangingindent {
+    padding-left: 22px ;
+    text-indent: -22px ;
+  }
+
+.indent{
+    text-indent: 50px;
+
+}
